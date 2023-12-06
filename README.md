@@ -20,13 +20,13 @@ Create a functional component named 'UserProfile' that accepts 'username' and 'a
 
 ## Exercise Tasks
 1. **Create UserProfile Component:**
-   - In the  folder, create a new file .
-   - Define a functional component  that takes  as an argument.
-   - Inside , return a JSX element displaying  and .
+   - In the src folder, create a new file called UserProfile.js.
+   - Define a functional component called UserProfile that takes props as an argument.
+   - Inside the UserProfile component, return a JSX element displaying the username and and age of the user with keys from the props.
 
 2. **Render UserProfile in App:**
-   - In , import .
-   - Render  within the  component.
+   - In App.js, import UserProfile.
+   - Render the UserProfile component within the App component.
 
 3. **Run the Application:**
    - Start the application to see the results:
@@ -44,4 +44,4 @@ Create a functional component named 'UserProfile' that accepts 'username' and 'a
 2. Create a pull request from your forked repository to the original repository.
 
 ## Expected Outcome
-You should see a greeting on the screen displaying the username and age passed as props to .
+You should see a greeting on the screen displaying the username and age passed as props to the UserProfile component.
